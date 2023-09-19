@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en>">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content = "width-device-width, initial-scale=1.0">
+<title> conditional statements</title>
+</head>
+<body>
+<script>
+/*var a = prompt("enter a number")// prompt is used to display message box
+//document.write(a)
+if(a<0){
+	document.write("enter greater than value")
+}else{
+	documnt.write("enter lessthan number")
+}
+*/
+/*var a = 20;
+if(a%2==0){
+	document.write("a is even nmber");
+
+}else {
+	document.write("a is odd number");
+}
+*/
+/*var a=20;  
+if(a==10){  
+document.write("a is equal to 10");  
+}  
+else if(a==15){  
+document.write("a is equal to 15");  
+}  
+else if(a==20){  
+document.write("a is equal to 20");  
+}  
+else{  
+document.write("a is not equal to 10, 15 or 20");  
+}  
+
+*/
+//The JavaScript switch statement is used to execute one code from multiple expressions
+var grade='B';  
+var result;  
+switch(grade){  
+case 'A':  
+result="A Grade";  
+break;  
+case 'B':  
+result="B Grade";  
+break;  
+case 'C':  
+result="C Grade";  
+break;  
+default:  
+result="No Grade";  
+}  
+document.write(result);  
+</script>
+</body>
+</html>
+
+
+//he JavaScript loops are used to iterate the piece of code using for, while, do while or for-in loops
+There are four types of loops in JavaScript.
+
+for loop
+while loop
+do-while loop
+for-in loop
+
+
+//for loop
+//The JavaScript for loop iterates the elements for the fixed number of times. It should be used if number of iteration is known. The syntax of for loop is given below
+
+for (initialization; condition; increment)  
+{  
+    code to be executed  
+}  
+
+
+
+for loop 
+for (i=1;i<=5;i++){
+	document.write("i")
+}
+
+
+while loop
+The JavaScript while loop iterates the elements for the infinite number of times. It should be used if number of iteration is not known
+
+while (condition)  
+{  
+    code to be executed  
+}  
+
+
+var i =11;
+while(i<=15){
+	document.write(i +"<br>");
+	i++;
+
+}
+
+
+do while loop
+
+The JavaScript do while loop iterates the elements for the infinite number of times like while loop. But, code is executed at least once whether condition is true or false
+
+var i = 21;
+do{
+	document.write(i);
+	i++;
+}while(i<=25);
+
+//The JavaScript for in loop is used to iterate the properties of an object
+
+const person = {
+    name : 'chandu',
+    age : 30,
+    city : 'hyd'
+    
+};
+for (property in person){
+    console.log(property + ":"+ person[property]);
+}
+
+
+how to upload image using php 
+
+
+
